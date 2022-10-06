@@ -168,13 +168,13 @@ section#network {
   line-height: 129%;
   color: #fff;
 }
-.serv_desc{
+.serv_desc {
   color: #6c757d;
   padding-top: 20px;
 }
 @media (min-width: 576px) {
-  #services{
-    background: #0C0028;;
+  #services {
+    background: #0c0028;
   }
   #services h2 {
     font-weight: 700;
@@ -3440,13 +3440,13 @@ how to remove the virtical space around the range input in IE*/
     left: 15px;
     padding: 40px 20px;
   }
-  #services{
+  #services {
     padding-top: 25px;
     padding-bottom: 25px;
   }
 }
 /* Mining */
-#mining h3 span{
+#mining h3 span {
   color: white;
 }
 .mining-card {
@@ -3466,7 +3466,7 @@ how to remove the virtical space around the range input in IE*/
   font-weight: 700;
   font-size: 16px;
   line-height: 129%;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 0;
 }
 .mining-text {
@@ -3478,7 +3478,7 @@ how to remove the virtical space around the range input in IE*/
   text-transform: uppercase;
 }
 @media (min-width: 576px) {
-  .mining-title{
+  .mining-title {
     font-size: 20px;
   }
   .mining-card img {
@@ -3492,7 +3492,7 @@ how to remove the virtical space around the range input in IE*/
   color: var(--blue-color);
 }
 .rev-cards {
-  background: #1A0D37;
+  background: #1a0d37;
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 10px;
   padding: 37px 21px;
@@ -3500,40 +3500,43 @@ how to remove the virtical space around the range input in IE*/
 }
 @media (min-width: 576px) {
   .rev-cards {
-    margin:0px;
+    margin: 0px;
   }
 }
 
 /****** Mining page ******/
 .mining-info {
-  background: #160B30;
+  background: #160b30;
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 50px;
   padding: 3px;
   width: 100%;
-/*  margin-top: 30px;*/
+  /*  margin-top: 30px;*/
 }
-.mining-info .btn-mining, .buy-mining-info .btn-mining {
+.mining-info .btn-mining,
+.buy-mining-info .btn-mining {
   width: auto;
   padding: 4px 10px;
   margin: 0;
   background: transparent;
-  border-radius: 50px!important;
+  border-radius: 50px !important;
   line-height: 1.3em;
   border: none;
 }
-.mining-info .btn-check:checked+.btn-mining, .buy-mining-info .btn-check:checked+.btn-mining {
-  background: #F2994A;
+.mining-info .btn-check:checked + .btn-mining,
+.buy-mining-info .btn-check:checked + .btn-mining {
+  background: #f2994a;
   border: 1px solid rgba(255, 255, 255, 0.15);
-  outline: none!important;
-  box-shadow: none!important;
+  outline: none !important;
+  box-shadow: none !important;
 }
-.mining-info .btn-check:checked+.btn-mining b, .buy-mining-info .btn-check:checked+.btn-mining b {
+.mining-info .btn-check:checked + .btn-mining b,
+.buy-mining-info .btn-check:checked + .btn-mining b {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
-  color: #0C0028;
+  color: #0c0028;
   margin: 0;
 }
 
@@ -3545,14 +3548,16 @@ how to remove the virtical space around the range input in IE*/
   color: #fff;
   margin: 0;
 }
-.mining-info .btn-mining p, .buy-mining-info .btn-mining p {
+.mining-info .btn-mining p,
+.buy-mining-info .btn-mining p {
   font-weight: 500;
   font-size: 10px;
   line-height: 12px;
   color: #fff;
   margin: 0;
 }
-.mining-info .btn-plus, .buy-mining-info .btn-minus {
+.mining-info .btn-plus,
+.buy-mining-info .btn-minus {
   padding: 0px 8px;
   color: var(--bg-blue);
   font-size: 20px;
@@ -3561,32 +3566,40 @@ how to remove the virtical space around the range input in IE*/
   width: 32px;
   height: 32px;
 }
-.mining-info .btn-plus:hover, .card-add-btn .btn-plus:hover, .buy-mining-info .btn-plus:hover {
+.mining-info .btn-plus:hover,
+.card-add-btn .btn-plus:hover,
+.buy-mining-info .btn-plus:hover {
   color: var(--bg-blue);
   filter: contrast(1.2);
-  background: #F2994A;
+  background: #f2994a;
   border: none;
 }
-.mining-info .btn-minus:hover, .card-add-btn .btn-minus:hover, .buy-mining-info .btn-minus:hover {
+.mining-info .btn-minus:hover,
+.card-add-btn .btn-minus:hover,
+.buy-mining-info .btn-minus:hover {
   color: var(--bg-blue);
   filter: contrast(1.2);
-  background: #413E4A;
+  background: #413e4a;
   border: none;
 }
-.mining-info .btn-plus, .card-add-btn .btn-plus {
-  background: #F2994A;
+.mining-info .btn-plus,
+.card-add-btn .btn-plus {
+  background: #f2994a;
 }
-.mining-info .btn-minus, .card-add-btn .btn-minus {
-  background: #413E4A;
+.mining-info .btn-minus,
+.card-add-btn .btn-minus {
+  background: #413e4a;
 }
-.card-avaliable p, .card-gpu p {
+.card-avaliable p,
+.card-gpu p {
   font-weight: 500;
   font-size: 28px;
   line-height: 41px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0;
 }
-.card-avaliable span, .card-gpu span {
+.card-avaliable span,
+.card-gpu span {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -3621,7 +3634,7 @@ how to remove the virtical space around the range input in IE*/
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background: #160C2E;
+  background: #160c2e;
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 50px 50px 0 0;
   background-clip: border-box;
@@ -3640,25 +3653,25 @@ how to remove the virtical space around the range input in IE*/
 }
 
 .available .card-reff {
-  color: #F2994A;
+  color: #f2994a;
 }
 .available .card-icon img {
   max-width: 80px;
 }
-.range_mining{
+.range_mining {
   width: 100%;
   margin-top: 8px;
 }
-input[type=range] {
+input[type="range"] {
   width: 100%;
   margin: 6.2px 0;
   background-color: transparent;
   -webkit-appearance: none;
 }
-input[type=range]:focus {
+input[type="range"]:focus {
   outline: none;
 }
-input[type=range]::-webkit-slider-runnable-track {
+input[type="range"]::-webkit-slider-runnable-track {
   background: #f2994a;
   border: 0;
   border-radius: 1.3px;
@@ -3666,7 +3679,7 @@ input[type=range]::-webkit-slider-runnable-track {
   height: 3.6px;
   cursor: pointer;
 }
-input[type=range]::-webkit-slider-thumb {
+input[type="range"]::-webkit-slider-thumb {
   margin-top: -6.2px;
   width: 16px;
   height: 16px;
@@ -3676,10 +3689,10 @@ input[type=range]::-webkit-slider-thumb {
   cursor: pointer;
   -webkit-appearance: none;
 }
-input[type=range]:focus::-webkit-slider-runnable-track {
+input[type="range"]:focus::-webkit-slider-runnable-track {
   background: #f4a967;
 }
-input[type=range]::-moz-range-track {
+input[type="range"]::-moz-range-track {
   background: #f2994a;
   border: 0;
   border-radius: 1.3px;
@@ -3687,7 +3700,7 @@ input[type=range]::-moz-range-track {
   height: 3.6px;
   cursor: pointer;
 }
-input[type=range]::-moz-range-thumb {
+input[type="range"]::-moz-range-thumb {
   width: 16px;
   height: 16px;
   background: #ffffff;
@@ -3695,7 +3708,7 @@ input[type=range]::-moz-range-thumb {
   border-radius: 16px;
   cursor: pointer;
 }
-input[type=range]::-ms-track {
+input[type="range"]::-ms-track {
   background: transparent;
   border-color: transparent;
   border-width: 7.2px 0;
@@ -3704,17 +3717,17 @@ input[type=range]::-ms-track {
   height: 3.6px;
   cursor: pointer;
 }
-input[type=range]::-ms-fill-lower {
+input[type="range"]::-ms-fill-lower {
   background: #f0892d;
   border: 0;
   border-radius: 2.6px;
 }
-input[type=range]::-ms-fill-upper {
+input[type="range"]::-ms-fill-upper {
   background: #f2994a;
   border: 0;
   border-radius: 2.6px;
 }
-input[type=range]::-ms-thumb {
+input[type="range"]::-ms-thumb {
   width: 16px;
   height: 16px;
   background: #ffffff;
@@ -3724,42 +3737,42 @@ input[type=range]::-ms-thumb {
   margin-top: 0px;
   /*Needed to keep the Edge thumb centred*/
 }
-input[type=range]:focus::-ms-fill-lower {
+input[type="range"]:focus::-ms-fill-lower {
   background: #f2994a;
 }
-input[type=range]:focus::-ms-fill-upper {
+input[type="range"]:focus::-ms-fill-upper {
   background: #f4a967;
 }
 /*TODO: Use one of the selectors from https://stackoverflow.com/a/20541859/7077589 and figure out
 how to remove the virtical space around the range input in IE*/
-@supports (-ms-ime-align:auto) {
+@supports (-ms-ime-align: auto) {
   /* Pre-Chromium Edge only styles, selector taken from hhttps://stackoverflow.com/a/32202953/7077589 */
-  input[type=range] {
+  input[type="range"] {
     margin: 0;
     /*Edge starts the margin from the thumb, not the track as other browsers do*/
   }
 }
-.balance_hash{
+.balance_hash {
   margin-bottom: 30px;
 }
-.mn_hash{
+.mn_hash {
   color: #fff;
 }
-.mn_hash span{
+.mn_hash span {
   font-weight: 600;
 }
-.exchange_btn{
+.exchange_btn {
   background: none;
-  color: #F2994A;
-  border: 1px solid #F2994A;
+  color: #f2994a;
+  border: 1px solid #f2994a;
   border-radius: 10px;
 }
-.exchange_btn:hover{
-  background: #F2994A;
+.exchange_btn:hover {
+  background: #f2994a;
   color: #fff;
 }
 
-.pop_alert{
+.pop_alert {
   display: none;
   position: fixed;
   padding: 10px 20px;
@@ -3768,20 +3781,20 @@ how to remove the virtical space around the range input in IE*/
   color: #fff;
   border-radius: 5px 0px 0px 5px;
 }
-#confirm_true{
+#confirm_true {
   background-color: #4caf50;
 }
-#confirm_false{
+#confirm_false {
   background-color: #f44336;
 }
-.alert-error{
+.alert-error {
   background: #f44336;
   padding: 5px;
   border-radius: 5px;
   color: #fff;
   text-align: center;
 }
-.alert-success{
+.alert-success {
   background: #4caf50;
   padding: 5px;
   border-radius: 5px;
@@ -3789,17 +3802,9 @@ how to remove the virtical space around the range input in IE*/
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
 @media (min-width: 576px) {
   .mining-info {
-    background: #160B30;
+    background: #160b30;
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 50px;
     padding: 6px;
@@ -3809,26 +3814,27 @@ how to remove the virtical space around the range input in IE*/
     padding: 4px 10px;
     margin: 0;
     background: transparent;
-    border-radius: 50px!important;
+    border-radius: 50px !important;
   }
-  .btn-check:checked+.btn-mining {
-    background: #F2994A;
+  .btn-check:checked + .btn-mining {
+    background: #f2994a;
     border: 1px solid rgba(255, 255, 255, 0.15);
-    outline: none!important;
-    box-shadow: none!important;
+    outline: none !important;
+    box-shadow: none !important;
   }
-  .mining-info .btn-check:checked+.btn-mining b, .buy-mining-info .btn-check:checked+.btn-mining b {
+  .mining-info .btn-check:checked + .btn-mining b,
+  .buy-mining-info .btn-check:checked + .btn-mining b {
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
-    color: #0C0028;
+    color: #0c0028;
   }
-  .btn-check:checked+.btn-mining p {
+  .btn-check:checked + .btn-mining p {
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
-    color: #0C0028;
+    color: #0c0028;
     margin: 0;
   }
 
@@ -3847,7 +3853,8 @@ how to remove the virtical space around the range input in IE*/
     color: #fff;
     margin: 0;
   }
-  .available .btn-plus,.available .btn-minus {
+  .available .btn-plus,
+  .available .btn-minus {
     padding: 0px 12px;
     color: var(--bg-blue);
     font-size: 30px;
@@ -3855,24 +3862,27 @@ how to remove the virtical space around the range input in IE*/
     width: 47px;
     height: 47px;
   }
-  .available .btn-plus:hover, .available .btn-minus:hover {
+  .available .btn-plus:hover,
+  .available .btn-minus:hover {
     color: var(--bg-blue);
     filter: contrast(1.2);
   }
   .available .btn-plus {
-    background: #F2994A;
+    background: #f2994a;
   }
   .available .btn-minus {
-    background: #413E4A;
+    background: #413e4a;
   }
-  .available .card-avaliable p, .available .card-gpu p {
+  .available .card-avaliable p,
+  .available .card-gpu p {
     font-weight: 500;
     font-size: 32px;
     line-height: 41px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin: 0;
   }
-  .available .card-avaliable span, .available .card-gpu span {
+  .available .card-avaliable span,
+  .available .card-gpu span {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
@@ -3905,11 +3915,11 @@ how to remove the virtical space around the range input in IE*/
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background: #160C2E;
+  background: #160c2e;
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 50px;
   background-clip: border-box;
-  transition: .2s ease-out;
+  transition: 0.2s ease-out;
 }
 .coin .card-title {
   font-weight: 500;
@@ -3942,10 +3952,10 @@ how to remove the virtical space around the range input in IE*/
   margin: 0;
 }
 .coin .card-body-text span {
-  color: #0099EF;
+  color: #0099ef;
   font-weight: 500;
   font-size: 9px;
-  line-height: 15px!important;
+  line-height: 15px !important;
 }
 .coin .card-body-text p {
   color: #fff;
@@ -3971,10 +3981,10 @@ how to remove the virtical space around the range input in IE*/
     margin-top: -17px;
   }
   .coin .card-body-text span {
-    color: #0099EF;
+    color: #0099ef;
     font-weight: 500;
     font-size: 12px;
-    line-height: 15px!important;
+    line-height: 15px !important;
   }
   .coin .card-icon img {
     max-width: 100%;
@@ -3994,7 +4004,7 @@ how to remove the virtical space around the range input in IE*/
     color: #828282;
   }
   .coin .card-title-stat span {
-    color: #F2994A;
+    color: #f2994a;
   }
   .coin .card-title {
     font-weight: 500;
@@ -4019,18 +4029,18 @@ how to remove the virtical space around the range input in IE*/
 /****** Cash out page ******/
 .card-cash .card-body:after {
   content: "\f061";
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   position: absolute;
   right: 10px;
   top: calc(50% - 20px);
   font-size: 20px;
   width: 40px;
   height: 40px;
-  background: #F2994A;
+  background: #f2994a;
   border-radius: 99px;
   text-align: center;
   line-height: 2em;
-  color: #0C0028;
+  color: #0c0028;
 }
 .card.card-cash {
   margin: 0;
@@ -4040,14 +4050,14 @@ how to remove the virtical space around the range input in IE*/
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 @media (min-width: 576px) {
   .card-cash {
     font-weight: 700;
     font-size: 24px;
     line-height: 31px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .card.card-cash {
     max-width: 380px;
@@ -4057,7 +4067,7 @@ how to remove the virtical space around the range input in IE*/
 /****** Buy page ******/
 
 .buy-mining-info {
-  background: #160B30;
+  background: #160b30;
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 50px;
   padding: 4px;
@@ -4069,12 +4079,12 @@ how to remove the virtical space around the range input in IE*/
   padding: 4px 10px;
   margin: 0;
   background: transparent;
-  border-radius: 50px!important;
+  border-radius: 50px !important;
   line-height: 1.3em;
   border: none;
 }
 .buy-mining-info .btn-mining b {
-  font-weight:500;
+  font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
@@ -4088,25 +4098,25 @@ how to remove the virtical space around the range input in IE*/
   color: #fff;
   margin: 0;
 }
-.buy-mining-info .btn-check:checked+.btn-mining {
-  background: #F2994A;
+.buy-mining-info .btn-check:checked + .btn-mining {
+  background: #f2994a;
   border: 1px solid rgba(255, 255, 255, 0.15);
-  outline: none!important;
-  box-shadow: none!important;
+  outline: none !important;
+  box-shadow: none !important;
 }
-.buy-mining-info .btn-check:checked+.btn-mining b {
+.buy-mining-info .btn-check:checked + .btn-mining b {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
-  color: #0C0028;
+  color: #0c0028;
   margin: 0;
 }
-.buy-mining-info .btn-check:checked+.btn-mining p {
+.buy-mining-info .btn-check:checked + .btn-mining p {
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
-  color: #0C0028;
+  color: #0c0028;
   margin: 0;
 }
 .buy-card .card-title p {
@@ -4117,22 +4127,22 @@ how to remove the virtical space around the range input in IE*/
   margin: 0;
 }
 @media (min-width: 576px) {
-  .mining-info .btn-check:checked+.btn-mining b {
+  .mining-info .btn-check:checked + .btn-mining b {
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
-    color: #0C0028;
+    color: #0c0028;
   }
-  .buy-mining-info .btn-check:checked+.btn-mining b {
+  .buy-mining-info .btn-check:checked + .btn-mining b {
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     text-align: center;
-    color: #0C0028;
+    color: #0c0028;
   }
   .buy-mining-info {
-    background: #160B30;
+    background: #160b30;
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 50px;
     padding: 6px;
@@ -4143,13 +4153,12 @@ how to remove the virtical space around the range input in IE*/
     padding: 13px 10px;
     margin: 0;
     background: transparent;
-    border-radius: 50px!important;
+    border-radius: 50px !important;
   }
 
-
   .buy-mining-info .btn-mining b {
-    font-weight: 500!important;
-    font-size: 20px!important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
     line-height: 30px;
     text-align: center;
     color: #fff;
@@ -4162,7 +4171,8 @@ how to remove the virtical space around the range input in IE*/
     color: #fff;
     margin: 0;
   }
-  .card-add-btn .btn-plus, .card-add-btn .btn-minus {
+  .card-add-btn .btn-plus,
+  .card-add-btn .btn-minus {
     padding: 0px 6px;
     color: var(--bg-blue);
     font-size: 26px;
@@ -4171,7 +4181,8 @@ how to remove the virtical space around the range input in IE*/
     width: 36px;
     height: 36px;
   }
-  .card-add-btn .btn-plus:hover, .card-add-btn .btn-minus:hover {
+  .card-add-btn .btn-plus:hover,
+  .card-add-btn .btn-minus:hover {
     color: var(--bg-blue);
     filter: contrast(1.2);
   }
@@ -4180,21 +4191,59 @@ how to remove the virtical space around the range input in IE*/
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin: 0;
   }
 }
 
-#mining{
+#mining {
   padding: 80px 0;
-    background: url(../assets/img/about_bg.png);
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: contain;
-
+  background: url(../assets/img/about_bg.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
 }
-#what-is{
-  background: #0C0028;
+#what-is {
+  background: #0c0028;
   color: white;
-  
+}
+/* @media only screen and (min-width: 992px){}
+.bitcoinImg img {
+    position: absolute;
+    width: 420px;
+    margin: 50px 0px 0px -30px;
+} */
+
+
+@media (min-width: 991px) and (max-width: 1199px) {
+  .bitcoinImg img {
+    position: absolute !important;
+    width: 350px !important;
+    margin: 70px 0px 0px -30px !important;
+  }
+}
+.bitcoinImg img { 
+	position: absolute;
+	width: 420px;
+	margin: 50px 0px 0px -30px;
+}
+.features{
+  padding: 80px 0;
+  background: url(../assets/img/about_bg.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+}
+.features p{
+  color: #c5b8f1;
+}
+.features h6{
+  color: white;
+}
+.headline{
+  color: white;
+  font-size: 30px;
+  margin: 1rem;
+  text-transform: uppercase;
+  text-align: center;
 }
