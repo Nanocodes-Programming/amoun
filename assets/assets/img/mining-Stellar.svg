@@ -1,0 +1,25 @@
+<svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="5" y="5" width="65" height="65" rx="32.5" fill="url(#paint0_angular_99_1614)" fill-opacity="0.25"/>
+<g filter="url(#filter0_f_99_1614)">
+<circle cx="37.5" cy="37.5" r="16.5" fill="#F2994A"/>
+</g>
+<circle cx="37.5" cy="37.5" r="37" stroke="url(#paint1_angular_99_1614)"/>
+<path d="M28.7642 38.0227C28.6144 36.7297 28.7404 35.4197 29.1339 34.179C29.5275 32.9383 30.1797 31.7952 31.0474 30.825C31.9152 29.8548 32.9788 29.0797 34.1681 28.5507C35.3573 28.0218 36.6453 27.751 37.9469 27.7563C39.4813 27.7546 40.9917 28.1372 42.3403 28.8692L44.7309 27.65C43.0071 26.3963 40.9699 25.6439 38.845 25.4762C36.72 25.3086 34.5901 25.7321 32.6909 26.7C30.7917 27.6678 29.1974 29.1423 28.0843 30.9602C26.9712 32.778 26.3828 34.8684 26.3842 37C26.3842 37.348 26.4002 37.6933 26.4294 38.0333C26.4626 38.3621 26.3954 38.6932 26.2365 38.983C26.0776 39.2727 25.8346 39.5075 25.5395 39.6563L24.4531 40.1875V42.7827L51.5469 29.1402V26.545L28.7642 38.0227Z" fill="white"/>
+<path d="M51.5469 31.1828L24.4531 44.8306V47.4258L47.1269 36.0039C47.1668 36.3345 47.1881 36.667 47.1906 37C47.1912 38.6004 46.7762 40.1735 45.9862 41.5653C45.1962 42.9571 44.0582 44.1199 42.6838 44.9398C41.3094 45.7597 39.7456 46.2086 38.1455 46.2425C36.5455 46.2765 34.9641 45.8943 33.5561 45.1334L31.1655 46.3526C32.787 47.5332 34.688 48.2712 36.6814 48.494C38.6748 48.7168 40.6918 48.4167 42.534 47.6233C44.3762 46.83 45.9801 45.5706 47.1878 43.9692C48.3955 42.3678 49.1655 40.4795 49.4219 38.4901C49.529 37.6496 49.5451 36.8 49.4697 35.9561C49.4408 35.6311 49.5108 35.3051 49.6706 35.0207C49.8303 34.7362 50.0723 34.5067 50.3648 34.3623L51.5469 33.778V31.1828Z" fill="white"/>
+<defs>
+<filter id="filter0_f_99_1614" x="1" y="1" width="73" height="73" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_99_1614"/>
+</filter>
+<radialGradient id="paint0_angular_99_1614" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(41 30) rotate(130.446) scale(40.0781 52.6308)">
+<stop stop-color="#0C0028"/>
+<stop offset="0.853932" stop-color="#0099EF"/>
+<stop offset="1" stop-color="#0099EF" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_angular_99_1614" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(37.5 37.5) rotate(90) scale(37.5)">
+<stop offset="0.114972" stop-color="#0C0028" stop-opacity="0"/>
+<stop offset="0.577126" stop-color="#0099EF"/>
+</radialGradient>
+</defs>
+</svg>

@@ -3428,6 +3428,13 @@ how to remove the virtical space around the range input in IE*/
 }
 
 @media screen and (max-width: 900px) {
+  .mining-title {
+    font-size: 11px;
+  }
+  #mining {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   .m_modal {
     width: calc(100% - 30px);
     left: 15px;
@@ -3437,4 +3444,752 @@ how to remove the virtical space around the range input in IE*/
     padding-top: 25px;
     padding-bottom: 25px;
   }
+}
+/* Mining */
+#mining h3 span{
+  color: white;
+}
+.mining-card {
+  background: rgba(32, 21, 56, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  border-radius: 50px;
+  padding: 7px;
+  max-width: 255px;
+  margin-bottom: 33px;
+}
+.mining-card img {
+  width: 60px;
+  margin-right: 10px;
+}
+.mining-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 129%;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+.mining-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 129%;
+  color: #c5b8f1;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+@media (min-width: 576px) {
+  .mining-title{
+    font-size: 20px;
+  }
+  .mining-card img {
+    width: 75px;
+    margin-right: 10px;
+  }
+}
+
+/* Reviews */
+#reviews h3 span {
+  color: var(--blue-color);
+}
+.rev-cards {
+  background: #1A0D37;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 37px 21px;
+  margin: 15px;
+}
+@media (min-width: 576px) {
+  .rev-cards {
+    margin:0px;
+  }
+}
+
+/****** Mining page ******/
+.mining-info {
+  background: #160B30;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 50px;
+  padding: 3px;
+  width: 100%;
+/*  margin-top: 30px;*/
+}
+.mining-info .btn-mining, .buy-mining-info .btn-mining {
+  width: auto;
+  padding: 4px 10px;
+  margin: 0;
+  background: transparent;
+  border-radius: 50px!important;
+  line-height: 1.3em;
+  border: none;
+}
+.mining-info .btn-check:checked+.btn-mining, .buy-mining-info .btn-check:checked+.btn-mining {
+  background: #F2994A;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  outline: none!important;
+  box-shadow: none!important;
+}
+.mining-info .btn-check:checked+.btn-mining b, .buy-mining-info .btn-check:checked+.btn-mining b {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #0C0028;
+  margin: 0;
+}
+
+.mining-info .btn-mining b {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+.mining-info .btn-mining p, .buy-mining-info .btn-mining p {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #fff;
+  margin: 0;
+}
+.mining-info .btn-plus, .buy-mining-info .btn-minus {
+  padding: 0px 8px;
+  color: var(--bg-blue);
+  font-size: 20px;
+  line-height: 1em;
+  margin: 0 4px;
+  width: 32px;
+  height: 32px;
+}
+.mining-info .btn-plus:hover, .card-add-btn .btn-plus:hover, .buy-mining-info .btn-plus:hover {
+  color: var(--bg-blue);
+  filter: contrast(1.2);
+  background: #F2994A;
+  border: none;
+}
+.mining-info .btn-minus:hover, .card-add-btn .btn-minus:hover, .buy-mining-info .btn-minus:hover {
+  color: var(--bg-blue);
+  filter: contrast(1.2);
+  background: #413E4A;
+  border: none;
+}
+.mining-info .btn-plus, .card-add-btn .btn-plus {
+  background: #F2994A;
+}
+.mining-info .btn-minus, .card-add-btn .btn-minus {
+  background: #413E4A;
+}
+.card-avaliable p, .card-gpu p {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 41px;
+  color: #FFFFFF;
+  margin: 0;
+}
+.card-avaliable span, .card-gpu span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #828282;
+  margin-bottom: 16px;
+  display: block;
+}
+.card-gpu p {
+  font-weight: 700;
+}
+.available .card-gpu span {
+  margin-bottom: 0;
+}
+.available .card-title b {
+  font-size: 20px;
+}
+.available .card-title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #828282;
+  margin: 0;
+}
+.available .card-body img {
+  margin-left: -20px;
+  width: 100px;
+}
+
+.card.available {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background: #160C2E;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 50px 50px 0 0;
+  background-clip: border-box;
+}
+.available .card-title {
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  line-height: 14px;
+  margin-bottom: 0;
+}
+.available .card-title-stat {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 52px;
+}
+
+.available .card-reff {
+  color: #F2994A;
+}
+.available .card-icon img {
+  max-width: 80px;
+}
+.range_mining{
+  width: 100%;
+  margin-top: 8px;
+}
+input[type=range] {
+  width: 100%;
+  margin: 6.2px 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  background: #f2994a;
+  border: 0;
+  border-radius: 1.3px;
+  width: 100%;
+  height: 3.6px;
+  cursor: pointer;
+}
+input[type=range]::-webkit-slider-thumb {
+  margin-top: -6.2px;
+  width: 16px;
+  height: 16px;
+  background: #ffffff;
+  border: 3.6px solid #f2994a;
+  border-radius: 16px;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #f4a967;
+}
+input[type=range]::-moz-range-track {
+  background: #f2994a;
+  border: 0;
+  border-radius: 1.3px;
+  width: 100%;
+  height: 3.6px;
+  cursor: pointer;
+}
+input[type=range]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background: #ffffff;
+  border: 3.6px solid #f2994a;
+  border-radius: 16px;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  border-width: 7.2px 0;
+  color: transparent;
+  width: 100%;
+  height: 3.6px;
+  cursor: pointer;
+}
+input[type=range]::-ms-fill-lower {
+  background: #f0892d;
+  border: 0;
+  border-radius: 2.6px;
+}
+input[type=range]::-ms-fill-upper {
+  background: #f2994a;
+  border: 0;
+  border-radius: 2.6px;
+}
+input[type=range]::-ms-thumb {
+  width: 16px;
+  height: 16px;
+  background: #ffffff;
+  border: 3.6px solid #f2994a;
+  border-radius: 16px;
+  cursor: pointer;
+  margin-top: 0px;
+  /*Needed to keep the Edge thumb centred*/
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #f2994a;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #f4a967;
+}
+/*TODO: Use one of the selectors from https://stackoverflow.com/a/20541859/7077589 and figure out
+how to remove the virtical space around the range input in IE*/
+@supports (-ms-ime-align:auto) {
+  /* Pre-Chromium Edge only styles, selector taken from hhttps://stackoverflow.com/a/32202953/7077589 */
+  input[type=range] {
+    margin: 0;
+    /*Edge starts the margin from the thumb, not the track as other browsers do*/
+  }
+}
+.balance_hash{
+  margin-bottom: 30px;
+}
+.mn_hash{
+  color: #fff;
+}
+.mn_hash span{
+  font-weight: 600;
+}
+.exchange_btn{
+  background: none;
+  color: #F2994A;
+  border: 1px solid #F2994A;
+  border-radius: 10px;
+}
+.exchange_btn:hover{
+  background: #F2994A;
+  color: #fff;
+}
+
+.pop_alert{
+  display: none;
+  position: fixed;
+  padding: 10px 20px;
+  top: 50px;
+  right: 0;
+  color: #fff;
+  border-radius: 5px 0px 0px 5px;
+}
+#confirm_true{
+  background-color: #4caf50;
+}
+#confirm_false{
+  background-color: #f44336;
+}
+.alert-error{
+  background: #f44336;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+}
+.alert-success{
+  background: #4caf50;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+  .mining-info {
+    background: #160B30;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+    padding: 6px;
+  }
+  .mining-info .btn-mining {
+    width: 176px;
+    padding: 4px 10px;
+    margin: 0;
+    background: transparent;
+    border-radius: 50px!important;
+  }
+  .btn-check:checked+.btn-mining {
+    background: #F2994A;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    outline: none!important;
+    box-shadow: none!important;
+  }
+  .mining-info .btn-check:checked+.btn-mining b, .buy-mining-info .btn-check:checked+.btn-mining b {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #0C0028;
+  }
+  .btn-check:checked+.btn-mining p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #0C0028;
+    margin: 0;
+  }
+
+  .mining-info .btn-mining b {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+  }
+  .mining-info .btn-mining p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+    margin: 0;
+  }
+  .available .btn-plus,.available .btn-minus {
+    padding: 0px 12px;
+    color: var(--bg-blue);
+    font-size: 30px;
+    margin: 0 4px;
+    width: 47px;
+    height: 47px;
+  }
+  .available .btn-plus:hover, .available .btn-minus:hover {
+    color: var(--bg-blue);
+    filter: contrast(1.2);
+  }
+  .available .btn-plus {
+    background: #F2994A;
+  }
+  .available .btn-minus {
+    background: #413E4A;
+  }
+  .available .card-avaliable p, .available .card-gpu p {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 41px;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  .available .card-avaliable span, .available .card-gpu span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #828282;
+    margin-bottom: 16px;
+    display: block;
+  }
+  .available .card-gpu p {
+    font-weight: 700;
+  }
+  .available .card-gpu span {
+    margin-bottom: 0;
+  }
+  .available .card-title b {
+    font-size: 20px;
+    line-height: 129%;
+  }
+  .available .card-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #828282;
+  }
+}
+
+/****** Deposit page ******/
+.card.coin {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background: #160C2E;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 50px;
+  background-clip: border-box;
+  transition: .2s ease-out;
+}
+.coin .card-title {
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  line-height: 14px;
+  margin-top: -5px;
+}
+.coin .card-title-stat {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 52px;
+}
+.coin .card-body {
+  flex: 0 0 auto;
+  padding: 4px;
+  max-height: 60px;
+}
+.coin .card-icon img {
+  max-width: 80px;
+}
+.coin .card-title b {
+  font-size: 14px;
+}
+.coin .card-title p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+  margin: 0;
+}
+.coin .card-body-text span {
+  color: #0099EF;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 15px!important;
+}
+.coin .card-body-text p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.coin .card-body img {
+  margin-left: -14px;
+  width: 80px;
+  margin-top: -14px;
+}
+@media (min-width: 576px) {
+  .coin .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 7px;
+    max-height: 90px;
+  }
+  .coin .card-body img {
+    margin-left: -16px;
+    width: 110px;
+    margin-top: -17px;
+  }
+  .coin .card-body-text span {
+    color: #0099EF;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px!important;
+  }
+  .coin .card-icon img {
+    max-width: 100%;
+  }
+  .coin .card-title-stat {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .coin .card-title b {
+    font-size: 18px;
+  }
+  .coin .card-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #828282;
+  }
+  .coin .card-title-stat span {
+    color: #F2994A;
+  }
+  .coin .card-title {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    line-height: 21px;
+  }
+  .card-deck .coin {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+  }
+  .card-deck .card.coin {
+    flex: 1 0 0%;
+    margin-right: 0.75rem;
+    margin-bottom: 0;
+    margin-left: 0.75rem;
+  }
+}
+
+/****** Cash out page ******/
+.card-cash .card-body:after {
+  content: "\f061";
+  font-family: 'FontAwesome';
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 20px);
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  background: #F2994A;
+  border-radius: 99px;
+  text-align: center;
+  line-height: 2em;
+  color: #0C0028;
+}
+.card.card-cash {
+  margin: 0;
+  max-width: 250px;
+}
+.card-cash {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+@media (min-width: 576px) {
+  .card-cash {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+  }
+  .card.card-cash {
+    max-width: 380px;
+  }
+}
+
+/****** Buy page ******/
+
+.buy-mining-info {
+  background: #160B30;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 50px;
+  padding: 4px;
+  width: 100%;
+  margin-top: 30px;
+}
+.buy-mining-info .btn-mining {
+  width: auto;
+  padding: 4px 10px;
+  margin: 0;
+  background: transparent;
+  border-radius: 50px!important;
+  line-height: 1.3em;
+  border: none;
+}
+.buy-mining-info .btn-mining b {
+  font-weight:500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+.buy-mining-info .btn-mining p {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #fff;
+  margin: 0;
+}
+.buy-mining-info .btn-check:checked+.btn-mining {
+  background: #F2994A;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  outline: none!important;
+  box-shadow: none!important;
+}
+.buy-mining-info .btn-check:checked+.btn-mining b {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #0C0028;
+  margin: 0;
+}
+.buy-mining-info .btn-check:checked+.btn-mining p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #0C0028;
+  margin: 0;
+}
+.buy-card .card-title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #828282;
+  margin: 0;
+}
+@media (min-width: 576px) {
+  .mining-info .btn-check:checked+.btn-mining b {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #0C0028;
+  }
+  .buy-mining-info .btn-check:checked+.btn-mining b {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #0C0028;
+  }
+  .buy-mining-info {
+    background: #160B30;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+    padding: 6px;
+    margin-top: 0;
+  }
+  .buy-mining-info .btn-mining {
+    width: 176px;
+    padding: 13px 10px;
+    margin: 0;
+    background: transparent;
+    border-radius: 50px!important;
+  }
+
+
+  .buy-mining-info .btn-mining b {
+    font-weight: 500!important;
+    font-size: 20px!important;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+  }
+  .buy-mining-info .btn-mining p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+    margin: 0;
+  }
+  .card-add-btn .btn-plus, .card-add-btn .btn-minus {
+    padding: 0px 6px;
+    color: var(--bg-blue);
+    font-size: 26px;
+    line-height: 1em;
+    margin: 0 2px;
+    width: 36px;
+    height: 36px;
+  }
+  .card-add-btn .btn-plus:hover, .card-add-btn .btn-minus:hover {
+    color: var(--bg-blue);
+    filter: contrast(1.2);
+  }
+
+  .buy-card p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0;
+  }
+}
+
+#mining{
+  padding: 80px 0;
+    background: url(../assets/img/about_bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+
 }

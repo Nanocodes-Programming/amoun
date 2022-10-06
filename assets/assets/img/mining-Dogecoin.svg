@@ -1,0 +1,24 @@
+<svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="5" y="5" width="65" height="65" rx="32.5" fill="url(#paint0_angular_99_1624)" fill-opacity="0.25"/>
+<g filter="url(#filter0_f_99_1624)">
+<circle cx="37.5" cy="37.5" r="16.5" fill="#F2994A"/>
+</g>
+<circle cx="37.5" cy="37.5" r="37" stroke="url(#paint1_angular_99_1624)"/>
+<path d="M50.2975 34.1245H47.7741C46.9736 31.8988 45.5063 29.9741 43.5721 28.6127C41.638 27.2513 39.331 26.5195 36.9658 26.517H27.8123V34.1245H24.7656V36.5709H27.8123V39.4291H24.7656V41.8755H27.8123V49.483H36.9658C39.331 49.4805 41.638 48.7486 43.5721 47.3873C45.5063 46.0259 46.9736 44.1012 47.7741 41.8755H50.2975V39.4291H48.3584C48.4788 38.4802 48.4788 37.5198 48.3584 36.5709H50.2975V34.1245ZM30.2614 28.9687H36.9658C38.6743 28.97 40.3476 29.4548 41.7921 30.3672C43.2366 31.2796 44.3933 32.5823 45.1284 34.1245H30.2534L30.2614 28.9687ZM36.9658 47.0312H30.2614V41.8755H45.1364C44.4007 43.4189 43.2427 44.7224 41.7967 45.6349C40.3506 46.5474 38.6757 47.0315 36.9658 47.0312ZM45.997 38C45.9967 38.4786 45.9585 38.9565 45.8828 39.4291H30.2614V36.5709H45.8881C45.9638 37.0435 46.002 37.5214 46.0023 38H45.997Z" fill="white"/>
+<defs>
+<filter id="filter0_f_99_1624" x="1" y="1" width="73" height="73" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_99_1624"/>
+</filter>
+<radialGradient id="paint0_angular_99_1624" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(42.5 29.5) rotate(131.576) scale(41.4397 54.419)">
+<stop stop-color="#0C0028"/>
+<stop offset="0.853932" stop-color="#0099EF"/>
+<stop offset="1" stop-color="#0099EF" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_angular_99_1624" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(37.5 37.5) rotate(90) scale(37.5)">
+<stop offset="0.114972" stop-color="#0C0028" stop-opacity="0"/>
+<stop offset="0.577126" stop-color="#0099EF"/>
+</radialGradient>
+</defs>
+</svg>
